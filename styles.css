@@ -17,10 +17,15 @@ body {
 
 }
 
-#help{
-  background-color: coral;
-  padding: 20px;
+@media(min-width:250px){
+  .container{
+    white-space:nowrap;
+    
+
+  }
 }
+
+
 .btn {
   margin: 25px;
   display: inline-block;
